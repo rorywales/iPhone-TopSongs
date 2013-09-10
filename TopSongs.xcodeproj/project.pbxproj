@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0980B9AC13F8586B00F67344 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0980B9AB13F8586B00F67344 /* icon.png */; };
+		099FEC5E13EEF27F007409CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FEC5D13EEF27F007409CD /* UIKit.framework */; };
+		099FEC6013EEF27F007409CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FEC5F13EEF27F007409CD /* Foundation.framework */; };
+		099FEC6213EEF27F007409CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099FEC6113EEF27F007409CD /* CoreGraphics.framework */; };
+		099FEC6813EEF280007409CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099FEC6613EEF280007409CD /* InfoPlist.strings */; };
+		099FEC6B13EEF280007409CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 099FEC6A13EEF280007409CD /* main.m */; };
+		099FEC6E13EEF280007409CD /* TopSongsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 099FEC6D13EEF280007409CD /* TopSongsAppDelegate.m */; };
+		099FEC7113EEF280007409CD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099FEC6F13EEF280007409CD /* MainWindow.xib */; };
+		099FEC7913EEF2CC007409CD /* RSSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099FEC7813EEF2CC007409CD /* RSSTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0980B9AB13F8586B00F67344 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		099FEC5913EEF27F007409CD /* TopSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		099FEC5D13EEF27F007409CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		099FEC5F13EEF27F007409CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		099FEC6113EEF27F007409CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		099FEC6513EEF280007409CD /* TopSongs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopSongs-Info.plist"; sourceTree = "<group>"; };
+		099FEC6713EEF280007409CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		099FEC6913EEF280007409CD /* TopSongs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopSongs-Prefix.pch"; sourceTree = "<group>"; };
+		099FEC6A13EEF280007409CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		099FEC6C13EEF280007409CD /* TopSongsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopSongsAppDelegate.h; sourceTree = "<group>"; };
+		099FEC6D13EEF280007409CD /* TopSongsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopSongsAppDelegate.m; sourceTree = "<group>"; };
+		099FEC7013EEF280007409CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		099FEC7713EEF2CC007409CD /* RSSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSTableViewController.h; sourceTree = "<group>"; };
+		099FEC7813EEF2CC007409CD /* RSSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		099FEC5613EEF27F007409CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099FEC5E13EEF27F007409CD /* UIKit.framework in Frameworks */,
+				099FEC6013EEF27F007409CD /* Foundation.framework in Frameworks */,
+				099FEC6213EEF27F007409CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099FEC4E13EEF27F007409CD = {
+			isa = PBXGroup;
+			children = (
+				099FEC6313EEF280007409CD /* TopSongs */,
+				099FEC5C13EEF27F007409CD /* Frameworks */,
+				099FEC5A13EEF27F007409CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		099FEC5A13EEF27F007409CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				099FEC5913EEF27F007409CD /* TopSongs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		099FEC5C13EEF27F007409CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099FEC5D13EEF27F007409CD /* UIKit.framework */,
+				099FEC5F13EEF27F007409CD /* Foundation.framework */,
+				099FEC6113EEF27F007409CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		099FEC6313EEF280007409CD /* TopSongs */ = {
+			isa = PBXGroup;
+			children = (
+				099FEC7713EEF2CC007409CD /* RSSTableViewController.h */,
+				099FEC7813EEF2CC007409CD /* RSSTableViewController.m */,
+				099FEC6C13EEF280007409CD /* TopSongsAppDelegate.h */,
+				099FEC6D13EEF280007409CD /* TopSongsAppDelegate.m */,
+				099FEC6F13EEF280007409CD /* MainWindow.xib */,
+				099FEC6413EEF280007409CD /* Supporting Files */,
+			);
+			path = TopSongs;
+			sourceTree = "<group>";
+		};
+		099FEC6413EEF280007409CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0980B9AB13F8586B00F67344 /* icon.png */,
+				099FEC6513EEF280007409CD /* TopSongs-Info.plist */,
+				099FEC6613EEF280007409CD /* InfoPlist.strings */,
+				099FEC6913EEF280007409CD /* TopSongs-Prefix.pch */,
+				099FEC6A13EEF280007409CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		099FEC5813EEF27F007409CD /* TopSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099FEC7413EEF280007409CD /* Build configuration list for PBXNativeTarget "TopSongs" */;
+			buildPhases = (
+				099FEC5513EEF27F007409CD /* Sources */,
+				099FEC5613EEF27F007409CD /* Frameworks */,
+				099FEC5713EEF27F007409CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopSongs;
+			productName = TopSongs;
+			productReference = 099FEC5913EEF27F007409CD /* TopSongs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		099FEC5013EEF27F007409CD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 099FEC5313EEF27F007409CD /* Build configuration list for PBXProject "TopSongs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 099FEC4E13EEF27F007409CD;
+			productRefGroup = 099FEC5A13EEF27F007409CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				099FEC5813EEF27F007409CD /* TopSongs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		099FEC5713EEF27F007409CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099FEC6813EEF280007409CD /* InfoPlist.strings in Resources */,
+				099FEC7113EEF280007409CD /* MainWindow.xib in Resources */,
+				0980B9AC13F8586B00F67344 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099FEC5513EEF27F007409CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099FEC6B13EEF280007409CD /* main.m in Sources */,
+				099FEC6E13EEF280007409CD /* TopSongsAppDelegate.m in Sources */,
+				099FEC7913EEF2CC007409CD /* RSSTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		099FEC6613EEF280007409CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099FEC6713EEF280007409CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		099FEC6F13EEF280007409CD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				099FEC7013EEF280007409CD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		099FEC7213EEF280007409CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		099FEC7313EEF280007409CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		099FEC7513EEF280007409CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopSongs/TopSongs-Prefix.pch";
+				INFOPLIST_FILE = "TopSongs/TopSongs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		099FEC7613EEF280007409CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopSongs/TopSongs-Prefix.pch";
+				INFOPLIST_FILE = "TopSongs/TopSongs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099FEC5313EEF27F007409CD /* Build configuration list for PBXProject "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099FEC7213EEF280007409CD /* Debug */,
+				099FEC7313EEF280007409CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		099FEC7413EEF280007409CD /* Build configuration list for PBXNativeTarget "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				099FEC7513EEF280007409CD /* Debug */,
+				099FEC7613EEF280007409CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 099FEC5013EEF27F007409CD /* Project object */;
+}
